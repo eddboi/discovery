@@ -2,7 +2,7 @@
 #![no_main]
 #![no_std]
 
-use aux5::{entry, stm32f3xx_hal::hal::blocking::delay, Delay, DelayMs, LedArray, OutputSwitch};
+use aux5::{stm32f3xx_hal::hal::blocking::delay, Delay, DelayMs, LedArray, OutputSwitch, entry};
 
 #[entry]
 // fn main() -> ! {
