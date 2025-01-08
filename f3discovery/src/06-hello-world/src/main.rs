@@ -6,10 +6,14 @@
 use aux6::{entry, iprint, iprintln};
 
 #[entry]
-fn main() -> ! {
+/*fn main() -> ! {
     let mut itm = aux6::init();
 
     iprintln!(&mut itm.stim[0], "Hello, world!");
 
     loop {}
+}*/
+
+fn main() -> ! {
+    panic!("Hello, world!");
 }
